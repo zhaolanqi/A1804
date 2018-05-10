@@ -1,0 +1,5 @@
+price=input("西瓜单价:")
+weight=input("西瓜重量:")
+price_flo=float(price)
+weight_flo=float(weight)
+print('应付金额:',price_flo*weight_flo)
